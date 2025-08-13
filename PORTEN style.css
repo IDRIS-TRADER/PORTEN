@@ -601,11 +601,13 @@ textarea {
     z-index: 1;
     overflow-y: auto;
     scrollbar-color: #25252583 transparent;
+    opacity: 0;
 }
 
 .modal-window__like--is-active {
     transform: translateY(0);
     top: 120px;
+    opacity: 100;
 }
 
 .modal-window__like--zogolovok {
@@ -627,10 +629,12 @@ textarea {
     transition: var(--transition-duration);
     z-index: 1;
     box-shadow: 0 0 10px 1px #000000;
+    opacity: 0;
 }
 
 .modal-window__settings--is-active {
     top: 0;
+    opacity: 100;
 }
 
 .modal-window__personal {
@@ -648,10 +652,12 @@ textarea {
     transition: var(--transition-duration);
     z-index: 1;
     box-shadow: 0 0 10px 1px #000000;
+    opacity: 0;
 }
 
 .modal-window__personal--is-active {
     top: 0;
+    opacity: 100;
 }
 
 .modal-window__basket {
@@ -667,11 +673,13 @@ textarea {
     z-index: 1;
     overflow-y: auto;
     scrollbar-color: #25252583 transparent;
+    opacity: 0;
 }
 
 .modal-window__basket--is-active {
     transform: translateY(0);
     top: 120px;
+    opacity: 100;
 }
 
 .modal-window__basket--zogolovok {
@@ -691,11 +699,13 @@ textarea {
     transition: var(--transition-duration);
     transform: translateY(-100%);
     z-index: 1;
+    opacity: 0;
 }
 
 .modal-window__search--is-active {
     transform: translateY(0);
     top: 120px;
+    opacity: 100;
 }
 
 .modal-window__search--zogolovok {
@@ -1062,4 +1072,5 @@ textarea {
     .content-sixth__column-third--button:hover {
         background-color: #333333;
     }
+
 }
