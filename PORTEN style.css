@@ -415,14 +415,14 @@ textarea {
     font-weight: 700;
     position: relative;
     margin-top: 484px;
-    transform: translateX(-200px);
+    transform: translateY(200px);
     opacity: 0;
     transition: 400ms;
 }
 
 .animation-scroll__content-second__column-second--zogolovok {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .content-second__column-second--zogolovok::after {
@@ -446,14 +446,14 @@ textarea {
     margin-top: 60px;
     cursor: pointer;
     transition: var(--transition-duration);
-    transform: translateX(200px);
+    transform: translateY(200px);
     opacity: 0;
     transition: 400ms;
 }
 
 .animation-scroll__content-second__column-second--text {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .content-third {
@@ -1342,5 +1342,6 @@ textarea {
         opacity: 1;
     }
 }
+
 
 
