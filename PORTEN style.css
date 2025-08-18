@@ -398,7 +398,7 @@ textarea {
     background-image: url(./images/midle\ fon.svg);
     width: 880px;
     height: 730px;
-    transform: translateX(200px);
+    transform: translateY(200px);
     opacity: 0;
     transition: 400ms;
     
@@ -406,7 +406,7 @@ textarea {
 
 .animation-scroll__content-second__column-second {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .content-second__column-second--zogolovok {
@@ -462,14 +462,14 @@ textarea {
 }
 
 .content-third--img {
-    transform: translateX(-200px);
+    transform: translateY(200px);
     opacity: 0;
     transition: 400ms;
 }
 
 .animation-scroll__content-third--img {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .content-third__column {
@@ -507,14 +507,14 @@ textarea {
     font-size: 14px;
     max-width: 471px;
     margin-top: 80px;
-    transform: translateX(200px);
+    transform: translateY(200px);
     opacity: 0;
     transition: 400ms;
 }
 
 .animation-scroll__content-third__column--text {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .content-third__column--element {
@@ -620,13 +620,13 @@ textarea {
     gap: 30px;
     padding-bottom: 80px;
     transition: var(--transition-duration);
-    transform: translateX(200px);
+    transform: translateY(200px);
     opacity: 0;
 }
 
 .animation-scroll__content-fifth__brends {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .content-sixth--fon {
@@ -1342,5 +1342,5 @@ textarea {
         opacity: 1;
     }
 }
-}
+
 
